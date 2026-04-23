@@ -43,7 +43,7 @@ def saddle_tap(mat):
     if yoxla == 0:
         print("heç bir nöqtə tapılmadı.")
 
-setir, sutun = 4, 4
+setir, sutun = map(list(int, input("setir, sutun: ").split(" ")))
 matris = create_matrix(setir, sutun)
 print_matrix(matris)
 saddle_tap(matris)
